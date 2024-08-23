@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  margin: 60px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.banner{
+  width: 60%;
+}
