@@ -14,3 +14,13 @@
   font-weight: bold;
   margin-right: 15px;
 }
+
+@media screen and (max-width: 480px) {
+  .footer{
+    margin-top: 45px;
+  }
+
+  .footer__logo{
+    font-size: 2.5rem;
+  }
+}

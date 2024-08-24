@@ -11,3 +11,23 @@
   width: 60%;
   margin-top: 7.5px;
 }
+
+@media screen and (max-width: 768px) {
+  .texts{
+    font-size: 1.5rem;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main{
+    margin-top: 20px;
+    padding: 0px 15px;
+  }
+
+  .texts{
+    width: 100%;
+    font-size: 1.25rem;
+    margin-top: 5px;
+  }
+}

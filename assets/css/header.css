@@ -9,8 +9,31 @@
   margin: 60px;
   font-size: 3rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .banner{
   width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .title{
+    margin: 45px;
+    font-size: 2.75rem;
+  }
+
+  .banner{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title{
+    margin: 45px;
+    font-size: 2.5rem;
+  }
+
+  .banner{
+    width: 100vw;
+  }
 }
