@@ -1,21 +1,22 @@
 .navbar{
   background-color: #5f1002;
   width: 100%;
-  height: 64px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.navbar__links{
-  margin-left: 15px;
-  display: flex;
-  align-items: center;
+.navbar__banner{
   width: 100%;
 }
 
+.navbar__links{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .navbar__link{
-  margin-left: 25px;
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5rem;
@@ -26,28 +27,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar__links{
-    margin-left: 7.5px;
-  }
-
   .navbar__link{
-    margin-left: 17.5px;
     font-size: 1.25rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .navbar{
-    height: auto;
-  }
-
   .navbar__links{
-    flex-direction: column;
-    margin: 5px 0px;
+    padding: 10px 0px;
+    height: 64px;
+    flex-wrap: wrap;
   }
 
   .navbar__link{
-    margin: 5px 0px;
+    margin: 0px 10px;
     font-size: 1.25rem;
   }
 }

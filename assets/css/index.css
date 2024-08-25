@@ -58,3 +58,7 @@ time::selection, mark::selection, audio::selection, video::selection, br::select
   color: #ffffff;
   background-color: #5f1002;
 }
+
+html, body{
+	background-color: #ecd1aa;
+}
